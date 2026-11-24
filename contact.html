@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Atif</title>
+<link rel="icon" href="assets/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+<script>try{var t=localStorage.getItem('atif.theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.dataset.theme=t}catch(e){document.documentElement.dataset.theme='light'}</script>
+</head>
+<body id="top" data-page="contact">
+<div id="app"><p style="padding:24px;font-family:Inter,Arial,sans-serif;color:#102D57">Loading portfolio…</p></div>
+<noscript><p style="padding:24px;font-family:sans-serif">This site needs JavaScript to show its content.</p></noscript>
+<script>
+window.addEventListener('error', function (event) {
+  if (event.target && event.target.tagName === 'SCRIPT') {
+    var app = document.getElementById('app');
+    if (app) app.innerHTML = '<main style="max-width:760px;margin:10vh auto;padding:32px;font:16px/1.6 Arial,sans-serif;color:#102D57"><h1>Portfolio files could not load.</h1><p>A required JavaScript file was not found. Please check that the assets/js folder was uploaded with the website.</p></main>';
+  }
+}, true);
+</script>
+<script src="assets/js/socials.js"></script>
+<script src="assets/js/content.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
